@@ -50,7 +50,7 @@ module.exports = {
 
 					let divisor = parseFloat(data.rates.AUD);
 					//getting bitcoin
-					return new Promise(function (resolve, reject) {
+				//	return new Promise(function (resolve, reject) {
 						return new Promise(function (resolve, reject) {
 
 							//make a ajax call and then return the valuve 
@@ -74,8 +74,8 @@ module.exports = {
 							//  resolve('foo');
 
 							.catch(e => { return "error doingcalc"; });
-					})
-						.catch(e => { return "error"; });
+				//	})
+				//		.catch(e => { return "error"; });
 				})
 					.catch(e => { return "error doingcalc"; });
 			})
@@ -106,7 +106,7 @@ module.exports = {
 
 					let divisor = parseFloat(data.rates.AUD);
 					//getting bitcoin
-					return new Promise(function (resolve, reject) {
+					//return new Promise(function (resolve, reject) {
 						return new Promise(function (resolve, reject) {
 
 							//make a ajax call and then return the valuve 
@@ -130,8 +130,8 @@ module.exports = {
 							//  resolve('foo');
 
 							.catch(e => { return "error doingcalc"; });
-					})
-						.catch(e => { return "error"; });
+				//	})
+				//		.catch(e => { return "error"; });
 				})
 					.catch(e => { return "error doingcalc"; });
 			})
@@ -165,7 +165,7 @@ module.exports = {
 
 					let divisor = parseFloat(data.rates.AUD);
 					//getting bitcoin
-					return new Promise(function (resolve, reject) {
+					//return new Promise(function (resolve, reject) {
 						return new Promise(function (resolve, reject) {
 
 							//make a ajax call and then return the valuve 
@@ -189,8 +189,8 @@ module.exports = {
 							//  resolve('foo');
 
 							.catch(e => { return "error doingcalc"; });
-					})
-						.catch(e => { return "error"; });
+				//	})
+				//		.catch(e => { return "error"; });
 				})
 					.catch(e => { return "error doingcalc"; });
 			})
